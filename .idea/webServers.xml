@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bb324557-df93-49db-bcd8-e3cfcebb2d3f" name="bondar" url="http://95.216.47.195">
+        <fileTransfer rootFolder="/home/bitrix/www/app-api/bca" accessType="SFTP" host="95.216.47.195" port="22" sshConfigId="03f58304-f8bb-49e6-a3fd-27a2a8c84f6a" sshConfig="bitrix@95.216.47.195:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="14e93c2b-1ae2-46a5-960d-ea3498db59de" name="bestprofi" url="http://uashared23.twinservers.net">
+        <fileTransfer rootFolder="/public_html/bondar" host="uashared23.twinservers.net" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
